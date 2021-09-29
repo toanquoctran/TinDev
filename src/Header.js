@@ -7,7 +7,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import {Link, useHistory} from 'react-router-dom';
 import tinder from './tinder-logo.jpeg';
 
-const Header = ({backButton}) => {
+const Header = ({backButton, favorite}) => {
   const history = useHistory();
 
   return (
@@ -21,7 +21,7 @@ const Header = ({backButton}) => {
         </IconButton>
       ) : (
         // on the messages, render the back icon; on the homepage, show the person icon
-        <IconButton>
+        <IconButton onClick={() => alert(JSON.stringify(favorite))}>
           <PersonIcon className="header__icon" fontSize="large" />
         </IconButton>
       )}

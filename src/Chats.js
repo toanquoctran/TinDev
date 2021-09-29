@@ -21,7 +21,7 @@ const Chats = () => {
         name="Ariana"
         message="Bae, just fall in love with you at the first sight"
         timestamp="17 minutes ago"
-        profilePicture="https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/241176508_1215449052236906_8794995041286147308_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=uk5lks5ffUIAX8vyRIH&_nc_ht=scontent.fdad1-1.fna&oh=18df24dab6a68cfbbae636d232f919de&oe=6151CBA1"
+        profilePicture="https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/241668134_397583885054157_4586748835080075007_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=mzXP1wkeLQMAX8_Fvp6&_nc_ht=scontent.fdad1-2.fna&oh=329a9675817fd17955809b43273aca59&oe=61798BFB"
       />
     </div>
   );
