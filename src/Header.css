@@ -13,3 +13,10 @@
 .header___icon {
     padding: 20px;
 }
+
+.footer {
+    padding: 20px;
+    color: red;
+    border: 5px solid #ffff00;
+    text-align: center;
+}
