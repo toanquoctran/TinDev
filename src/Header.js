@@ -6,7 +6,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import {Link, useHistory} from 'react-router-dom';
 import tinder from './tinder-logo.jpeg';
-import Footer from './Footer';
 
 const Header = ({backButton, favorite}) => {
   const history = useHistory();
@@ -40,7 +39,6 @@ const Header = ({backButton, favorite}) => {
           </IconButton>
         </Link>
       </div>
-      <Footer className="footer" />
     </div>
   );
 };

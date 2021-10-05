@@ -6,7 +6,6 @@ import StarRateIcon from '@mui/icons-material/StarRate';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import IconButton from '@material-ui/core/IconButton';
-import Footer from './Footer';
 
 import './SwipeButtons.css';
 
